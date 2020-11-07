@@ -1,0 +1,173 @@
+/**
+* Template Name: JRC WEBSITE
+* Git Hub: Deepak-coder80
+* Author: DEEPAK M S
+* Website: https://deepakms.info
+*/
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: red;
+    font-family: Arial;
+    justify-content: space-around;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 13px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  
+ 
+
+  /*--Home--index.html---*/
+  /*body*/
+  table , th ,td{
+    padding-top: 5px;
+    border: 3px solid red;
+    width: 100%;
+  }
+
+.content1{
+  font-size: 18px bold;
+
+}
+.p1{
+  font-size: 16px;
+}
+.p1 a{
+  color: red;
+}
+.p1 a:hover{
+  color: blueviolet;
+}
+.hrf{
+  color: red;
+}
+.hrf:hover{
+  color: black;
+}
+.content2{
+  font-size: 18px bold;
+
+}
+.p2{
+  font-size: 16px;
+}
+.p2 a{
+  color: red;
+}
+.p2 a:hover{
+  color: blueviolet;
+}
+
+
+  /*FOOTER*/
+  #footer {
+    padding: 15px;
+    color: #f4f6fd;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 1527px;
+    z-index: 9999;
+    background: red;
+    text-align: center;
+  }
+  
+  #footer .copyright {
+    text-align: center;
+  }
+  
+  #footer .credits {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: #eaebf0;
+  }
+  
+  @media (max-width: 1199px) {
+    #footer {
+      position: static;
+      width: auto;
+      padding-right: 20px 15px;
+    }
+  }
+#footer a{
+  color: white;
+}
+#footer a:hover{
+  color: yellow;
+}
+  
+  
+  
+  /*--more result--result.html---*/
+  /*RESULT PAGE TEXT*/
+  .resulttext{
+      text-align: center;
+      text-decoration: red;
+      font-size: 36px;
+  }

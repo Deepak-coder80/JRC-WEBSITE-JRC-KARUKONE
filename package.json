@@ -1,0 +1,11 @@
+{
+  "name": "jrc-website",
+  "version": "1.0.0",
+  "description": "website for jrc unit karukone",
+  "main": "app.js",
+  "scripts": {
+    "test": "hello world"
+  },
+  "author": "Deepak M S",
+  "license": "ISC"
+}
